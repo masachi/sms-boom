@@ -135,6 +135,10 @@ chalk@^2.0.0:
     escape-string-regexp "^1.0.5"
     supports-color "^4.0.0"
 
+chance@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/chance/-/chance-1.0.11.tgz#48e82f7583df356053e0ad122d4654c5066c570d"
+
 cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"

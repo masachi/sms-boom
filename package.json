@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/axetroy/sms-boom#readme",
   "dependencies": {
+    "chance": "^1.0.11",
     "puppeteer": "^0.12.0"
   },
   "devDependencies": {
