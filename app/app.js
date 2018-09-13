@@ -189,7 +189,7 @@ class App extends EventEmitter {
    */
   async runAll() {
     try {
-      this.browser = await puppeteer.launch({ headless: this.options.isProduction });
+      this.browser = await puppeteer.launch({ headless: this.options.isProduction,args: ['--no-sandbox', '--disable-setuid-sandbox'] });
       this.browser.on('disconnected', () => {
         this.closed = true;
         this.emit(EVENT_ON_CLOSED, this);
